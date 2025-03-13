@@ -2,7 +2,7 @@ debugger
 var MyTokenABI = [];
 var ConractAddress = "";
 const networkId = '17000'; // Replace with the appropriate network ID
-fetch('./SagoToken.json')
+fetch('http://digivault.sirancheevi.com/SagoToken.json')
   .then(response => response.json())
   .then(data => {
     // Process the JSON data
